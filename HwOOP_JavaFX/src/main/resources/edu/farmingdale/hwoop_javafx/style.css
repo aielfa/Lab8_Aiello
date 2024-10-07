@@ -13,10 +13,10 @@
 .table-view {
     -fx-background-color: white;
 }
-
-.table-view .column-header-background {
-    -fx-background-color: gray;
+.table-view .table-column {
+    -fx-background-color: #737373;
     -fx-text-fill: white;
+    -fx-padding: 0px;
 }
 
 .table-row-cell {
