@@ -12,9 +12,6 @@ abstract class Garment {
 
     public abstract void wear();
 
-    public void setVariant(Variant variant) {
-        this.variant = variant;
-    }
 
     public void mixAndMatch(String otherGarmentType, Variant otherVariant) {
         System.out.println("Mixing a " + this.variant.getStyle() + " " + this.type
